@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://kaos:qwertyuiop@cluster0.lgztt.mongodb.net/test?retryWrites=true&w=majority"
+}

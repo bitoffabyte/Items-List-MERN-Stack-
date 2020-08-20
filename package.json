@@ -1,0 +1,20 @@
+{
+    "name": "mern",
+    "version": "1.0.0",
+    "description": "Shopping List built on MERN Stack",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "npm start  --prefix client",
+        "dev": " concurrently \"npm run server\" \"npm run client\" "
+    },
+    "author": "R Narayan",
+    "license": "MIT",
+    "dependencies": {
+        "concurrently": "^5.3.0",
+        "config": "^3.3.1",
+        "express": "^4.17.1",
+        "mongoose": "^5.10.0"
+    }
+}
